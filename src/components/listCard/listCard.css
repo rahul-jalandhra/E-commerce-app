@@ -1,0 +1,28 @@
+
+  .featured-product {
+    width: 250px;
+    height: 100px;
+    margin: 0px 15px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid white;
+  }
+  .featured-product:hover {
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px 10px lightgray;
+  }
+  .featured-product-des {
+    width: max-content;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 15px;
+  }
+  .featured-product-des:last-child {
+    color: gray;
+  }
+  .featured-product-rating {
+    margin: 10px 0px;
+  }

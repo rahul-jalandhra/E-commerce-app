@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.footer-container{
+    margin-top: 50px;
+    padding: 20px 200px;
+    border-top: 2px solid lightgray;
+    border-bottom: 2px solid lightgray;
+}
+.social-container{
+    display: flex;
+    justify-content: space-between;
+}
+.social-links{
+    width: 230px;
+}
+.social-title{
+    color: gray;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+.social-description{
+    font-size: 15px;
+}
+.links-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.links-title{
+    font-weight: bold;
+    font-size: 20px;
+}
+.payment-cards{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 0px 50px;
+    margin-bottom: 30px;
+}
+.payment-cards img{
+    margin: 10px;
+}
+

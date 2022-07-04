@@ -1,0 +1,108 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+a:hover{
+  color: blue;
+}
+.upper-header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  font-size: 13px;
+  border-bottom: 2px solid #fafafb;
+  padding: 10px 0px;
+}
+.upper-left {
+  margin-left: 200px;
+}
+.upper-left select {
+  border: none;
+  outline: none;
+}
+.upper-right {
+  width: 35%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 200px;
+}
+.upper-right div img {
+  margin-right: 10px;
+}
+.upper-right div {
+  display: flex;
+  align-items: center;
+}
+.total-price {
+  color: gray;
+  margin-left: 5px;
+}
+label img {
+  cursor: pointer;
+}
+#search {
+  border-radius: 20px;
+  padding: 4px 15px;
+  border: 1px solid #ff4252;
+  outline: none;
+  font-size: 12px;
+}
+
+.title-menu-container {
+  margin-top: 30px;
+}
+.title {
+  width: fit-content;
+  margin: auto;
+  color: #ff4252;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  width: 60%;
+  margin: auto;
+  font-size: 12px;
+  font-weight: bold;
+  color: gray;
+  margin-top: 20px;
+}
+.menu-item {
+  cursor: pointer;
+}
+.dropdown-menu{
+  background-color: white;
+  position: absolute;
+  display: none;
+  text-align: center;
+  padding: 20px 5px;
+}
+
+.menu-item:hover .dropdown-menu{
+  display: block;
+  color: black;
+}
+.dropdown-menu h2{
+  margin: 5px;
+}
+.dropdown-menu ul {
+  list-style: none;
+}
+.dropdown-menu ul li{
+  padding: 5px;
+  border: 2px solid white;
+}
+.dropdown-menu ul li:hover{
+  border: 2px solid black;
+}
+
+
+

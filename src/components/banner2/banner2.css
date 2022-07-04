@@ -1,0 +1,33 @@
+.banner2 {
+    background-color: #42a8fe;
+    margin: auto;
+  }
+  .banner2 img {
+    position: relative;
+    bottom: 60%;
+    left: 60%;
+  }
+  .details {
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 15%;
+    width: fit-content;
+  }
+  .banner2-title {
+    font-size: 35px;
+    margin-bottom: 20px;
+    width: fit-content;
+  }
+  .banner2-des {
+    font-size: 18px;
+    margin-bottom: 30px;
+    width: 250px;
+    text-align: left;
+  }
+  .banner2-shop-now {
+    font-size: 10px;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    width: fit-content;
+  }
